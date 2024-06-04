@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadia Josephine Prescott</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fce4ec;
+            color: #4a4a4a;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #e91e63;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ad1457;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #880e4f;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .about, .skills, .projects, .contact {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #ad1457;
+            border-bottom: 2px solid #ad1457;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .contact form input, .contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ad1457;
+        }
+        .contact form button {
+            background-color: #e91e63;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .contact form button:hover {
+            background-color: #ad1457;
+        }
+        footer {
+            background-color: #e91e63;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nadia Josephine Prescott</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Nadia Josephine Prescott is a young entrepreneur, author of the book <i>Hopeful Nets</i>, and a creative born on the Caribbean island of Saint Lucia and raised in New York. Her diverse background and multicultural lens can be seen throughout the perspectives of her work. She graduated from the University of Buckingham with a BA Honours in English Literature. An avid traveler, she's lived in many countries across the globe, and worked as an English teacher most recently in Hong Kong. She continues to share her passions for music, art, poetry, and literature, with every new experience and destination along life's journey.</p>
+    </section>
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Entrepreneurship</li>
+            <li>Creative Writing</li>
+            <li>Teaching English as a Second Language</li>
+            <li>Public Speaking</li>
+            <li>Music and Art Appreciation</li>
+        </ul>
+    </section>
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <p><strong>Hopeful Nets</strong> - A book that explores themes of hope, resilience, and interconnectedness through poetry and prose.</p>
+        <p><strong>Travel Blog</strong> - Documenting my travels and sharing cultural insights, experiences, and photography from around the world.</p>
+        <p><strong>Art Exhibits</strong> - Curating and participating in art exhibits showcasing multicultural and diverse artistic expressions.</p>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Nadia Josephine Prescott. All rights reserved.</p>
+    </footer>
+</body>
+</html>
